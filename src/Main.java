@@ -5,6 +5,9 @@
 // Remove the comments from the lines you want to execute.
 // example: Line(20) & Line(21).
 
+import search.BinarySearch;
+import search.InterpolationSearch;
+import search.LinearSearch;
 import sort.*;
 
 import java.util.Arrays;
@@ -50,6 +53,32 @@ public class Main {
 //        int[] sortedArray = QuickSort.Sort(ARRAY);
 //        System.out.print(Arrays.toString(sortedArray));
 //        --------------------------------------------------------------------------------------------------
+
+
+
+
+
+
+
+        //--------------------------------------- SEARCHING ALGORITHMS ---------------------------------------
+
+        // 1- Linear Search O(n) | first appearance
+//        int index = LinearSearch.Search(ARRAY, 4);
+//        System.out.print(index);
+//        --------------------------------------------------------------------------------------------------
+
+        // 2- Binary Search O(log(n)) | sorted array | first appearance
+//        int[] sortedArray = new int[] {0, 1, 1, 1, 3, 3, 4, 5, 5, 7};
+//        int index = BinarySearch.Search(sortedArray, 4);
+//        System.out.print(index);
+//        --------------------------------------------------------------------------------------------------
+
+        // 3- Interpolation Search O(n) | sorted array | first appearance | Interval between elements almost be uniform
+//        int[] sortedArray = new int[] {0, 1, 1, 1, 3, 3, 4, 5, 5, 7};
+//        int index = InterpolationSearch.Search(sortedArray, 4);
+//        System.out.print(index);
+//        --------------------------------------------------------------------------------------------------
+
 
     }
 
